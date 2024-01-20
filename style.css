@@ -1,0 +1,105 @@
+:root{
+    --fontfamily:'Poppins', sans-serif;
+    --color:#192ff8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tiffin{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3eeee
+}
+.text_tiffin{
+    padding: 20px;
+}
+.text_tiffin h1{
+    color: var(--color);
+    font-size: 100px;
+    font-family: var(--fontfamily)
+}
+
+.text_tiffin h4{
+    font-family: var(--fontfamily);
+    font-size: 22px;
+    font-weight: 400;
+    color: #4e4b4b;
+}
+
+.login_tiffin{
+    text-align: center;
+    min-width: 360px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.login_tiffin form{
+    background: #FFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0  3px 4px rgb(209, 207, 207);
+}
+
+.input_dedo{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 0.01px solid rgb(177, 175, 175);
+    margin-bottom: 10px;
+}
+
+.btn{
+    background-color:var(--color) ;
+    color: #ffffff;
+    width: 100%;
+    font-weight: 600;
+    font-family: var(--fontfamily);
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.bhulgaya{
+    color: var(--color);
+    margin:10px 0px;
+    display: block;
+    text-decoration: none;
+}
+
+.hr{
+    background-color: #c3bebe;
+    width: 100%;
+    height: 1px;
+}
+
+.anotherone{
+    margin-top: 10;
+    background-color: #42b72a;
+    color: #ffffff;
+    padding: 5px;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.bgmi{
+    margin-top:20px ;
+
+}
+.bgmi b{
+    color: #192ff8;
+}
